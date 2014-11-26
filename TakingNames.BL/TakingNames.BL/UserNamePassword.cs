@@ -43,7 +43,7 @@ namespace TakingNames.BL
 
         public bool ValidatePassword()
         {
-            var isValid = true;
+            var isValid = false;
             if (string.IsNullOrWhiteSpace(Password)) isValid = false;
             if (string.IsNullOrWhiteSpace(password1)) isValid = false;
             if (string.IsNullOrWhiteSpace(password2)) isValid = false;

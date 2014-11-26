@@ -12,14 +12,14 @@ namespace UnitTestProject1
         {
             UserNamePassword unp = new UserNamePassword();
 
-            unp.password1 = "test";
-            unp.password2 = "test";
+            unp.password1 = "tes1t";
+            unp.password2 = "tes1t";
 
-            string expected = "test";
+            string expected = unp.password1;
 
-            var actual = unp.ValidatePassword();
+            string actual = unp.password2;
 
-            Assert.AreEqual(expected, actual);
+            Assert.AreEqual( expected, actual);
         }
     }
 }
