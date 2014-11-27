@@ -21,5 +21,10 @@ namespace TakingNames.UI
         {
 
         }
+
+        private void TakingNames_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
